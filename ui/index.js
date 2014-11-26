@@ -6,8 +6,8 @@ require('./main.css');
 
 // famous related requires
 require('famous-polyfills');
-var Engine = require('famous/core/Engine');
-var Modifier   = require('famous/core/Modifier');
+var Engine = require('famous/src/core/Engine');
+var Modifier   = require('famous/src/core/Modifier');
 var Whiteboard = require('./whiteboard');
 
 // create the main famous context
@@ -25,7 +25,7 @@ var whiteboard = new Whiteboard({
 var modifier = new Modifier(modOpts);
 
 // add the modifier and then the surface to the tree.
-mainContext 
+mainContext
   .add(modifier)
   .add(whiteboard);
 

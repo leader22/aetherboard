@@ -1,7 +1,7 @@
 /**
  * Webpack lets us import css from npm modules.
- */ 
-@import "~famous/core/famous.css";
+ */
+@import "~famous/src/core/famous.css";
 
 html {
   background: #fff;

@@ -1,4 +1,4 @@
-var Canvas = require('famous/surfaces/CanvasSurface');
+var Canvas = require('famous/src/surfaces/CanvasSurface');
 var Sync   = require('./sync');
 var _      = require('lodash');
 
@@ -18,7 +18,7 @@ Whiteboard.prototype.initialize = function() {
 
   this.busyColor = "rgba(173,43,48, 0.75)";
   this.doneColor = "rgba(173,43,48, 1)";
-  
+
   ctx.fillStyle = "#000000";
   ctx.strokeStyle = this.busyColor;
   ctx.lineWidth = 1;

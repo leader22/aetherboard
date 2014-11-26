@@ -1,9 +1,9 @@
-var Engine = require('famous/core/Engine');
+var Engine = require('famous/src/core/Engine');
 
-var GenericSync = require("famous/inputs/GenericSync");
-var MouseSync   = require("famous/inputs/MouseSync");
-var TouchSync   = require("famous/inputs/TouchSync");
-var ScrollSync  = require("famous/inputs/ScrollSync");
+var GenericSync = require("famous/src/inputs/GenericSync");
+var MouseSync   = require("famous/src/inputs/MouseSync");
+var TouchSync   = require("famous/src/inputs/TouchSync");
+var ScrollSync  = require("famous/src/inputs/ScrollSync");
 
 GenericSync.register({
   mouse : MouseSync,
